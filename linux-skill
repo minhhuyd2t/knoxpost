@@ -1,0 +1,9 @@
+Mount Img file:
+# mkdir -p /mnt/disk
+# mount -o loop <your-file.img> /mnt/disk
+
+Compress and decompress lz4 file:
+# sudo apt install liblz4-tool
+# lz4 <file>  ----> nén
+# lz4 -d <file> ----> xả nén
+
