@@ -1,0 +1,13 @@
+Liên quan tới phần lõi máy tính (CPU)
+
+- 1 processor là 1 bo bo mạch vật lý, 1 processor có thể là 1 CPU, 1 CPU core hoặc 1 processor có thể được thiết kết để tích hợp nhiều CPU trên nó. Nói chung nó là một bo mạch vật lý.
+
+- Core là đơn vị tính toán cơ bản nhất của máy tính, 1 core sẽ thực hiện 1 phép toán số học(cộng, trừ, so sánh 2 số hoặc lấy giá trị) ở một thời điểm. Máy tính chúng ta đang dùng, chương trình chúng ta đang chạy tất cả đều là phép tính số học đối với máy tính.
+
+Ngày xưa 1 core chỉ thực hiện được một phép toán số học trên một đơn vị clock cycle(xem clock cycle là gì bên dưới), nhưng với thiết kết hyperthread của intel thì hiện tại 1 core có thể thực hiện được 2 hoặc nhiều phép toán số học trong một clock cycle. 1 core là 1 đơn vị vật lý nhưng với thiết kế hyperthread thì 1 core có thể được chia thành 2 đơn vị vật lý ảo(2 core ảo nhưng thực chất chúng chỉ nằm trên 1 đơn vị vật lý).
+
+- Clock cycle là thời gian giữa 2 tín hiệu xung nhịp trong 1 core. Khi chúng ta đi mua máy tính, để ý có thông số ví dụ như "CPU: Intel Core i3 350M at 2.27GHz, dual core with hyperthreading" nghĩa là máy tính đó có 1 CPU với 2 core, mỗi core đều có thiết kế hyperthreading (hyperthread vừa giải thích ở trên) và con số 2,27Ghz(số này gọi là clock speed) nghĩa là mỗi core có tốc độ xử lý xung nhịp là 2,27 tỉ xung nhịp (clock cycle) trên một giây.
+
+Trong 1 clock cycle, số phép toán được tính toán càng nhiều thì máy tính đó càng nhanh (cái này là nhìn từ cpu chứ nhìn từ người dùng thì còn phụ thuộc vào nhiều yếu tố khác nữa).
+
+1 CPU có thể có 1 core hoặc nhiều core, máy tính ngày nay thường có 1 CPU và có nhiều core trên CPU đó.
